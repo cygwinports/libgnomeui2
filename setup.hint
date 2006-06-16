@@ -1,0 +1,4 @@
+category: Gnome
+requires: cygwin atk gnome-keyring gtk2-x11 libICE6 libSM6 libbonoboui2 libgnome2 libjpeg62
+sdesc: "GUI part of the GNOME library (runtime)"
+ldesc: "This is the GUI part of the GNOME library."

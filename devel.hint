@@ -1,0 +1,5 @@
+category: Gnome
+requires: cygwin atk-devel gnome-keyring gtk2-x11-devel libICE libSM libbonoboui2-devel libgnome2-devel jpeg
+external-source: libgnomeui2
+sdesc: "GUI part of the GNOME library (development)"
+ldesc: "This is the GUI part of the GNOME library."
