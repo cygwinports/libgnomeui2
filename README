@@ -3,31 +3,41 @@ libgnomeui2
 This is the GUI part of the GNOME library.
 
 Runtime requirements:
-  cygwin-1.5.21-2
-  atk-1.12.3-1
-  gnome-keyring-0.6.0-1
-  gtk2-x11-2.10.6-1
-  libICE6-1.0.1-1
-  libSM6-1.0.1-1
-  libart_lgpl2-2.3.17-1
-  libbonoboui2-2.16.0-1
-  libglade2-2.6.0-1
-  libjpeg62-6b-11
+  cygwin-1.5.24-2
+  GConf2-2.18.0.1-1
+  atk-1.18.0-1
+  gdk-pixbuf2-2.10.13-1
+  glib2-2.12.12-2
+  gnome-keyring-0.8.1-1
+  gnome-vfs2-2.18.1-1
+  gtk2-x11-2.10.13-1
+  libICE6-1.0.2-1
+  libSM6-1.0.2-1
+  libX11_6-1.1.1-1
+  libart_lgpl2-2.3.19-1
+  libbonoboui2-2.18.0-1
+  libglade2-2.6.1-1
+  libgnome2-2.18.0-1
+  libgnomecanvas2-2.14.0-1
+  libintl8-0.15-1
+  libjpeg62-6b-12
+  libpopt0-1.10.4-1
+  pango-1.16.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.21-2
-  autoconf2.5-2.60-1
-  automake1.7-1.7.9-1
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.2.6-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  gtk-doc-1.7-1
-  libtool1.5-1.5.23a-1
+  cygport-0.3.1-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gtk-doc-1.8-1
+  libtool1.5-1.5.23a-2
   make-3.81-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
 
 Canonical homepage:
   http://www.gnome.org/
@@ -38,17 +48,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libgnomeui2-2.16.1-1-src.tar.bz2
+  unpack libgnomeui2-2.18.1-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libgnomeui2-2.16.1-1.cygport all
+  cygport ./libgnomeui2-2.18.1-1.cygport all
 
 This will create:
-  /usr/src/libgnomeui2-2.16.1-1-src.tar.bz2
-  /usr/src/libgnomeui2-2.16.1-1.tar.bz2
-  /usr/src/libgnomeui2-devel-2.16.1-1.tar.bz2
-  /usr/src/libgnomeui2-doc-2.16.1-1.tar.bz2
+  /usr/src/libgnomeui2-2.18.1-1-src.tar.bz2
+  /usr/src/libgnomeui2-2.18.1-1.tar.bz2
+  /usr/src/libgnomeui2-devel-2.18.1-1.tar.bz2
 
 -------------------------------------------
 
@@ -61,13 +70,13 @@ Files included in the binary packages:
   /usr/lib/libglade/2.0/cyggnome.dll
   /usr/lib/libglade/2.0/libgnome.la
   /usr/sbin/gnome_segv2.exe
-  /usr/share/doc/Cygwin/libgnomeui2-2.16.1.README
-  /usr/share/doc/libgnomeui2-2.16.1/AUTHORS
-  /usr/share/doc/libgnomeui2-2.16.1/COPYING.LIB
-  /usr/share/doc/libgnomeui2-2.16.1/ChangeLog
-  /usr/share/doc/libgnomeui2-2.16.1/INSTALL
-  /usr/share/doc/libgnomeui2-2.16.1/NEWS
-  /usr/share/doc/libgnomeui2-2.16.1/README
+  /usr/share/doc/Cygwin/libgnomeui2-2.18.1.README
+  /usr/share/doc/libgnomeui2-2.18.1/AUTHORS
+  /usr/share/doc/libgnomeui2-2.18.1/COPYING.LIB
+  /usr/share/doc/libgnomeui2-2.18.1/ChangeLog
+  /usr/share/doc/libgnomeui2-2.18.1/INSTALL
+  /usr/share/doc/libgnomeui2-2.18.1/NEWS
+  /usr/share/doc/libgnomeui2-2.18.1/README
   /usr/share/locale/af/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/am/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/ar/LC_MESSAGES/libgnomeui-2.0.mo
@@ -210,8 +219,6 @@ Files included in the binary packages:
   /usr/lib/libgnomeui-2.dll.a
   /usr/lib/libgnomeui-2.la
   /usr/lib/pkgconfig/libgnomeui-2.0.pc
-
-(libgnomeui2-doc)
   /usr/share/gtk-doc/html/libgnomeui/GnomeAbout.html
   /usr/share/gtk-doc/html/libgnomeui/GnomeApp.html
   /usr/share/gtk-doc/html/libgnomeui/GnomeAppBar.html
@@ -322,6 +329,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 2.18.1-1 -----
+Version bump for GNOME 2.18.
 
 ----- version 2.16.1-1 -----
 Version bump for GNOME 2.16.
