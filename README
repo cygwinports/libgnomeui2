@@ -4,25 +4,22 @@ This is the GUI part of the GNOME library.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  GConf2-2.18.0.1-1
-  atk-1.18.0-1
-  gdk-pixbuf2-2.10.13-1
-  glib2-2.12.12-2
-  gnome-keyring-0.8.1-1
-  gnome-vfs2-2.18.1-1
-  gtk2-x11-2.10.13-1
-  libICE6-1.0.2-1
-  libSM6-1.0.2-1
-  libX11_6-1.1.1-1
+  GConf2-2.20.1-1
+  atk-1.20.0-1
+  gdk-pixbuf2-2.12.2-1
+  glib2-2.14.4-1
+  gnome-keyring-2.20.2-1
+  gnome-vfs2-2.20.1-1
+  gtk2-x11-2.12.2-1
+  libICE6-1.0.4-1
+  libSM6-1.0.3-1
   libart_lgpl2-2.3.19-1
-  libbonoboui2-2.18.0-1
-  libglade2-2.6.1-1
-  libgnome2-2.18.0-1
-  libgnomecanvas2-2.14.0-1
+  libbonoboui2-2.20.0-1
+  libglade2-2.6.2-1
+  libgnome2-2.20.1.1-1
+  libgnomecanvas2-2.20.1.1-1
   libintl8-0.15-1
-  libjpeg62-6b-12
-  libpopt0-1.10.4-1
-  pango-1.16.4-1
+  pango-1.18.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -30,10 +27,10 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.3.1-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
-  gtk-doc-1.8-1
+  gtk-doc-1.9-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
@@ -48,16 +45,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libgnomeui2-2.18.1-1-src.tar.bz2
+  unpack libgnomeui2-2.20.1.1-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libgnomeui2-2.18.1-1.cygport all
+  cygport ./libgnomeui2-2.20.1.1-1.cygport all
 
 This will create:
-  /usr/src/libgnomeui2-2.18.1-1-src.tar.bz2
-  /usr/src/libgnomeui2-2.18.1-1.tar.bz2
-  /usr/src/libgnomeui2-devel-2.18.1-1.tar.bz2
+  /usr/src/libgnomeui2-2.20.1.1-1-src.tar.bz2
+  /usr/src/libgnomeui2-2.20.1.1-1.tar.bz2
+  /usr/src/libgnomeui2-devel-2.20.1.1-1.tar.bz2
 
 -------------------------------------------
 
@@ -69,19 +66,20 @@ Files included in the binary packages:
   /usr/lib/gtk-2.0/2.10.0/filesystems/libgnome-vfs.la
   /usr/lib/libglade/2.0/cyggnome.dll
   /usr/lib/libglade/2.0/libgnome.la
-  /usr/sbin/gnome_segv2.exe
-  /usr/share/doc/Cygwin/libgnomeui2-2.18.1.README
-  /usr/share/doc/libgnomeui2-2.18.1/AUTHORS
-  /usr/share/doc/libgnomeui2-2.18.1/COPYING.LIB
-  /usr/share/doc/libgnomeui2-2.18.1/ChangeLog
-  /usr/share/doc/libgnomeui2-2.18.1/INSTALL
-  /usr/share/doc/libgnomeui2-2.18.1/NEWS
-  /usr/share/doc/libgnomeui2-2.18.1/README
+  /usr/share/doc/Cygwin/libgnomeui2-2.20.1.1.README
+  /usr/share/doc/libgnomeui2-2.20.1.1/AUTHORS
+  /usr/share/doc/libgnomeui2-2.20.1.1/COPYING.LIB
+  /usr/share/doc/libgnomeui2-2.20.1.1/ChangeLog
+  /usr/share/doc/libgnomeui2-2.20.1.1/INSTALL
+  /usr/share/doc/libgnomeui2-2.20.1.1/MAINTAINERS
+  /usr/share/doc/libgnomeui2-2.20.1.1/NEWS
+  /usr/share/doc/libgnomeui2-2.20.1.1/README
   /usr/share/locale/af/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/am/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/ar/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/az/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/be/LC_MESSAGES/libgnomeui-2.0.mo
+  /usr/share/locale/be@latin/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/bg/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/bn/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/bn_IN/LC_MESSAGES/libgnomeui-2.0.mo
@@ -92,6 +90,7 @@ Files included in the binary packages:
   /usr/share/locale/cy/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/da/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/de/LC_MESSAGES/libgnomeui-2.0.mo
+  /usr/share/locale/dz/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/el/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/en_CA/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/en_GB/LC_MESSAGES/libgnomeui-2.0.mo
@@ -109,6 +108,7 @@ Files included in the binary packages:
   /usr/share/locale/hi/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/hr/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/hu/LC_MESSAGES/libgnomeui-2.0.mo
+  /usr/share/locale/hy/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/id/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/is/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/it/LC_MESSAGES/libgnomeui-2.0.mo
@@ -132,6 +132,7 @@ Files included in the binary packages:
   /usr/share/locale/nl/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/nn/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/nso/LC_MESSAGES/libgnomeui-2.0.mo
+  /usr/share/locale/oc/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/or/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/pa/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/pl/LC_MESSAGES/libgnomeui-2.0.mo
@@ -140,6 +141,7 @@ Files included in the binary packages:
   /usr/share/locale/ro/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/ru/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/rw/LC_MESSAGES/libgnomeui-2.0.mo
+  /usr/share/locale/si/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/sk/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/sl/LC_MESSAGES/libgnomeui-2.0.mo
   /usr/share/locale/sq/LC_MESSAGES/libgnomeui-2.0.mo
@@ -329,6 +331,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 2.20.1.1-1 -----
+Version bump for GNOME 2.20.
 
 ----- version 2.18.1-1 -----
 Version bump for GNOME 2.18.
