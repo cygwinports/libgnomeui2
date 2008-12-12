@@ -1,9 +1,0 @@
-ORIG_PN=libgnomeui
-
-inherit gnome2
-
-PKG_NAMES="${PN} ${PN}-devel"
-PKG_HINTS="setup devel"
-PKG_CONTENTS[0]="usr/bin/ usr/lib/gtk-2.0/ usr/lib/libglade/ usr/share/doc/
-                 usr/share/locale/ usr/share/pixmaps/"
-PKG_CONTENTS[1]='usr/include/ usr/lib/libgnomeui* usr/lib/pkgconfig/ usr/share/gtk-doc/'

@@ -1,4 +1,0 @@
-category: Gnome
-requires: cygwin GConf2 atk glib2 gnome-keyring gnome-vfs2 gtk2-x11 libICE6 libSM6 libart_lgpl2 libbonoboui2 libgnome2 libgnomecanvas2 libintl8 pango
-sdesc: "GUI part of the GNOME library (runtime)"
-ldesc: "This is the GUI part of the GNOME library."

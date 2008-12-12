@@ -1,0 +1,3 @@
+category: Gnome
+sdesc: "GUI part of the GNOME library (sources)"
+ldesc: "This is the GUI part of the GNOME library."

@@ -1,0 +1,5 @@
+category: Gnome
+requires: cygwin libgnomeui2_0 libart_lgpl_2-devel libatk1.0-devel libbonoboui2-devel libgconf2-devel libgdk_pixbuf2.0-devel libglib2.0-devel libgnome-keyring-devel libgnome2-devel libgnomecanvas2-devel libgnomevfs2-devel libgtk2.0-devel libICE-devel gettext libpango1.0-devel libSM-devel
+external-source: libgnomeui2
+sdesc: "GUI part of the GNOME library (development)"
+ldesc: "This is the GUI part of the GNOME library."
