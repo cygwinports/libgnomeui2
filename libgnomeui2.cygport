@@ -1,6 +1,12 @@
 ORIG_PN=libgnomeui
-
 inherit gnome2
+
+NAME="libgnomeui2"
+VERSION=2.24.5
+RELEASE=2
+CATEGORY="GNOME"
+SUMMARY="GUI part of the GNOME library"
+DESCRIPTION="This is the GUI part of the GNOME library."
 
 PKG_NAMES="${PN}_0 ${PN}-devel"
 libgnomeui2_0_CONTENTS="usr/bin/ usr/lib/libglade/ usr/share/doc/
